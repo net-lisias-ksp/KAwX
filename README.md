@@ -1,7 +1,7 @@
 # KAwX
 Kerbal Aviator's Weapons Expansion.
 
-A beligerant companion for [KAX](https://github.com/net-lisias-ksp/KAX)!
+A belligerent companion for [KAX](https://github.com/net-lisias-ksp/KAX)!
 
 
 ## In a Hurry
@@ -18,7 +18,9 @@ A beligerant companion for [KAX](https://github.com/net-lisias-ksp/KAX)!
 	+ [Known Issues](./KNOWN_ISSUES.md)
 	+ [TODO](https://github.com/net-lisias-ksp/KAwX/blob/master/TODO.md) list
 * Official Distribution Sites:
-	+ [Homepage](http://ksp.lisias.net/add-ons/KAwX) on L Aerospace
+<!--	+ [Homepage](http://ksp.lisias.net/add-ons/KAwX) on L Aerospace -->
+	+ [SpaceDock](https://www.spacedock.info/mod/2151/KAwX)
+	+ [CurseForge](https://kerbal.curseforge.com/projects/kawx/) on GitHub.
 	+ [Source and Binaries](https://github.com/net-lisias-ksp/KAwX) on GitHub.
 	+ [Latest Release](https://github.com/net-lisias-ksp/KAwX/releases)
 		- [Binaries](https://github.com/net-lisias-ksp/KAwX/tree/Archive)
