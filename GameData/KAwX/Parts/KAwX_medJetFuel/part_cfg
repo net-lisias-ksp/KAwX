@@ -1,0 +1,53 @@
+PART
+{
+	// Kerbal Space Program - Part Config
+	// Heavy Military Jet Fuel
+
+	// --- general parameters ---
+	name = KAwXmedJetFuel
+	module = Part
+	author = LisiasT
+
+	// --- asset parameters ---
+	mesh = KAwX/Parts/KAX_medJetFuel/medJetFuel.mu
+	rescaleFactor = 0.5
+
+	// --- node definitions ---
+	node_stack_top = 0.0, 3.75, 0.0, 0.0, 1.0, 0.0, 2
+	node_stack_bottom = 0.0, -3.75, 0.0, 0.0, -1.0, 0.0, 2
+	node_attach = 0.0, 0.0, -2.5, 0.0, 0.0, 1.0, 1
+
+	// --- editor parameters ---
+	TechRequired = aerodynamicSystems
+	entryCost = 15000
+	cost = 5000
+	category = Propulsion
+	subcategory = 0
+	title = #autoLOC_KAwX_600012 //= Military Heavy Fuselage - Jet Fuel
+	manufacturer = #autoLOC_KAwX_699999 //= Kerbal Aircraft Expansioneers Ltd / Military Aircraft and Missile Systems Division
+	description = #autoLOC_KAwX_600013 //= A 2M rugged fuselage that carries fuel for military airplanes.
+
+	// attachment rules: stack, srfAttach, allowStack, allowSrfAttach, allowCollision
+	attachRules = 1,1,1,1,0
+
+	// --- standard part parameters ---
+	mass = 0.63
+	dragModelType = default
+	maximum_drag = 0.2
+	minimum_drag = 0.3
+	angularDrag = 2
+	crashTolerance = 150
+	breakingForce = 120
+	breakingTorque = 120
+	maxTemp = 1000
+	fuelCrossFeed = True
+	bulkheadProfiles = size2
+
+	// --- fuel tank parameters ---
+	RESOURCE
+	{
+		name = LiquidFuel
+		amount = 1200
+		maxAmount = 1200
+	}
+}
